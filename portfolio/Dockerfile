@@ -1,5 +1,5 @@
 # Base image
-FROM node:18-alpine AS deps
+FROM node:alpine AS deps
 WORKDIR /app
 
 # Install dependencies
@@ -7,7 +7,7 @@ COPY package.json package-lock.json ./
 RUN npm ci
 
 # Builder image
-FROM node:18-alpine AS builder
+FROM node:alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
@@ -16,7 +16,7 @@ COPY . .
 RUN npm run build
 
 # Runner image
-FROM node:18-alpine AS runner
+FROM node:alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV production
