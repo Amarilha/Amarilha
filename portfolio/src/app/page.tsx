@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./page.module.css";
 import CardGrid from "@/components/CardGrid";
 
@@ -6,7 +7,13 @@ export default function Home() {
     <main className={styles.main}>
       <header className={styles.header}>
         <div className={styles.logo}>
-          <img src="/logo_amarilha.svg" alt="Logo" width={"auto"} height={"auto"} />
+          <Image
+            src="/logo_amarilha.svg"
+            alt="Amarilha Logo"
+            width={197}
+            height={152}
+            priority
+          />
         </div>
         <div className={styles.status}>
           &gt; Bem vindo, User // System online <span className={styles.blink}></span>
