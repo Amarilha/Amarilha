@@ -26,7 +26,7 @@
 
 | Projeto | O que é | Stack |
 |---|---|---|
-| [**grade-programacao**](https://github.com/Amarilha/grade-programacao) | Grade de programação de rádio, TV e digital: REST + SOAP sobre a mesma regra de negócio, SQL com view, functions, procedure e estudo de plano de execução | Java 21, Spring Boot, JPA, PostgreSQL, React + TS, Testcontainers |
+| [**grade-programacao**](https://github.com/Amarilha/grade-programacao) | Grade de programação de canais de TV, rádio e streaming: REST + SOAP sobre a mesma regra de negócio, SQL com view, functions, procedure e estudo de plano de execução | Java 21, Spring Boot, JPA, PostgreSQL, React + TS, Testcontainers |
 | [**Pricely**](https://github.com/Amarilha/Pricely) | SaaS de precificação e orçamentos para pequenas empresas, em produção em [nexprice.com.br](https://nexprice.com.br) | Next.js, TypeScript, Prisma, MySQL |
 | [**Proj_001_NET_WPF**](https://github.com/Amarilha/Proj_001_NET_WPF) | Sistema desktop de alocação de veículos com MVVM e Repository | C#, .NET, WPF, SQL Server |
 | [**aegis**](https://github.com/Amarilha/aegis) | WAF-as-Code para Kubernetes com regras declarativas e CI | Go, Rust, Kubernetes |
