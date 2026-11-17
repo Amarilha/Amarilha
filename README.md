@@ -27,7 +27,6 @@
 
 | Projeto | O que é | Stack |
 |---|---|---|
-| [**🛡️ Vigia**](https://github.com/Amarilha/vigia) | Gestão e priorização de vulnerabilidades para pipelines DevSecOps: recebe scans do Trivy, cruza com EPSS e CISA KEV, prioriza por risco e bloqueia deploys com um security gate. Imagens assinadas, SBOM e teste end-to-end em Kubernetes | Java 21, Spring Boot, PostgreSQL, Angular, Kubernetes, GitHub Actions |
 | [**Pricely**](https://github.com/Amarilha/Pricely) | SaaS de precificação e orçamentos para pequenas empresas, em produção em [nexprice.com.br](https://nexprice.com.br) | Next.js, TypeScript, Prisma, MySQL |
 | [**aegis**](https://github.com/Amarilha/aegis) | WAF-as-Code para Kubernetes com regras declarativas e CI | Go, Rust, Kubernetes |
 | [**Proj_001_NET_WPF**](https://github.com/Amarilha/Proj_001_NET_WPF) | Sistema desktop de alocação de veículos com MVVM e Repository | C#, .NET, WPF, SQL Server |
